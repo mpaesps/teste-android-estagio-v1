@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_linhas">
+
+    <fragment
+        android:id="@+id/navigation_linhas"
+        android:name="com.example.aiko.features.linhas.LinhasFragment"
+        android:label="Linhas"
+        tools:layout="@layout/fragment_linhas" />
+    <fragment
+        android:id="@+id/navigation_paradas"
+        android:name="com.example.aiko.features.paradas.ParadasFragment"
+        android:label="Paradas"
+        tools:layout="@layout/fragment_paradas" />
+
+    <fragment
+        android:id="@+id/navigation_maps"
+        android:name="com.example.aiko.features.map.MapsFragment"
+        android:label="Mapa"
+        tools:layout="@layout/fragment_maps" >
+
+    </fragment>
+
+</navigation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_maps"
+        android:icon="@drawable/ic_map_24"
+        android:title="@string/maps"/>
+
+    <item
+        android:id="@+id/navigation_linhas"
+        android:icon="@drawable/ic_directions_bus_24"
+        android:title="@string/linhas" />
+    <item
+        android:id="@+id/navigation_paradas"
+       android:icon="@drawable/ic_timeline_24"
+        android:title="@string/paradas"/>
+
+
+</menu>
